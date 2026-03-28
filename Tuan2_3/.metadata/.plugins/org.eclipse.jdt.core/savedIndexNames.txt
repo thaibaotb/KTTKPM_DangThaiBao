@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+T:\22686331_DangThaiBao_KienTrucPhanMem_Tuan2\.metadata\.plugins\org.eclipse.jdt.core
+173258884.index
+1865797976.index
+1067094681.index
+1896909393.index

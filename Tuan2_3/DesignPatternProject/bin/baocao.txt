@@ -1,0 +1,13 @@
+Trong project này, nhiều Design Pattern đã được áp dụng để giải quyết các bài toán khác nhau.
+
+- Composite Pattern được dùng để biểu diễn cấu trúc cây của hệ thống thư mục/tập tin và các thành phần giao diện người dùng.
+- Observer Pattern được dùng để gửi thông báo tự động khi giá cổ phiếu thay đổi hoặc khi trạng thái task thay đổi.
+- Adapter Pattern được dùng để chuyển đổi dữ liệu giữa XML và JSON.
+- Trong hệ thống quản lý thư viện:
+  + Singleton đảm bảo chỉ có một thư viện duy nhất.
+  + Factory Method hỗ trợ tạo nhiều loại sách khác nhau.
+  + Strategy cho phép thay đổi cách tìm kiếm sách linh hoạt.
+  + Observer giúp gửi thông báo khi có sách mới hoặc sách quá hạn.
+  + Decorator mở rộng tính năng mượn sách mà không thay đổi lớp gốc.
+
+Việc áp dụng các Design Pattern giúp hệ thống dễ mở rộng, tái sử dụng tốt hơn, giảm phụ thuộc giữa các thành phần và dễ bảo trì hơn.

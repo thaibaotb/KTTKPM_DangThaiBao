@@ -1,0 +1,9 @@
+Trong project này, ba Design Pattern gồm State, Strategy và Decorator được áp dụng trong cùng một bài để giải quyết ba yêu cầu nghiệp vụ khác nhau.
+
+- Với hệ thống quản lý đơn hàng, State Pattern đóng vai trò chính vì đơn hàng có nhiều trạng thái và mỗi trạng thái có hành vi xử lý riêng. Strategy được dùng để linh hoạt lựa chọn cách hoàn tiền khi hủy đơn. Decorator được dùng để bổ sung các chức năng như ghi log và gửi thông báo.
+
+- Với hệ thống tính thuế sản phẩm, Strategy Pattern được dùng để thay đổi cách tính thuế như VAT, thuế tiêu thụ, thuế xa xỉ. Decorator được dùng để cộng chồng nhiều loại thuế lên giá sản phẩm. State được dùng để mô phỏng trạng thái chịu thuế của sản phẩm như thông thường, nhập khẩu, xa xỉ.
+
+- Với hệ thống thanh toán, Strategy Pattern được dùng để lựa chọn phương thức thanh toán như thẻ tín dụng hoặc PayPal. Decorator được dùng để bổ sung phí xử lý và giảm giá. State được dùng để theo dõi trạng thái giao dịch như chờ xử lý, hoàn thành, thất bại.
+
+Kết quả cho thấy việc kết hợp ba Design Pattern giúp hệ thống dễ mở rộng, dễ bảo trì, giảm phụ thuộc và rõ ràng hơn nhiều so với cách dùng các câu lệnh điều kiện if-else hoặc switch-case.
